@@ -1,0 +1,18 @@
+.primary-btn {
+    background-color: #746ac3;
+    border: 1px solid #746ac3;
+    padding: 15px 20px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 100%;
+}
+.text-field {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #bb9ae9;
+}
+.field-label {
+    margin-bottom: 3px;
+}

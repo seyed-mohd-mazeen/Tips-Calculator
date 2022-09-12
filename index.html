@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tip calculator</title>
+        <link rel="icon" type="image/png" href="./favicon.png" />
+        <link href="./style/index.css" rel="stylesheet">
+        <script src="./script/script.js"></script>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="title">
+                <h2>TIP CALCULATOR</h2>
+            </div>
+            <div class="content">
+                <div class="column">
+                    <div class="cell-1">
+                        <p class="field-label">Bill Amount₹</p>
+                        <input class="text-field" id="amount" type="text" placeholder="Bill Amount" value="">
+                    </div>
+                    <div class="cell-1">
+                        <p class="field-label">Rate our service</p>
+                        <select  class="text-field" id="ratings" value="">
+                            <option value="">Rating</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div class="cell-1">
+                        <p class="field-label">Number of people sharing the bill</p>
+                        <input  class="text-field" id="noOfPeople" type="text" placeholder="Number Of People">
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <button class="primary-btn" id="button" onclick="tipsCalculator()">CALCULATE TIP!</button>
+                </div>
+                <div id="tips" class="tips-content">
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

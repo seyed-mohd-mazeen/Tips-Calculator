@@ -1,0 +1,29 @@
+.main-container {
+    max-width: 340px;
+    margin: auto;
+    margin-top: 140px;
+}
+.content {
+    background-color: #ddc8ff;
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+}
+.title {
+    background-color: #bb9ae9;
+    color: #72539d;
+    border-radius: 20px 20px 0 0;
+    padding: 10px;
+}
+.title h2 {
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-weight: 900;
+}
+.btn-container {
+    text-align: center;
+    margin: 20px;
+}
+.tips-content {
+    text-align: center;
+}
